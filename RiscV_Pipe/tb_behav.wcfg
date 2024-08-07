@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="104.101 ns"></ZoomEndTime>
+      <Cursor1Time time="52.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="155"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="group835" type="group">
+      <obj_property name="label">Fetch_Cycle</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb/uut/fetch/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/PCSrcE" type="logic">
+         <obj_property name="ElementShortName">PCSrcE</obj_property>
+         <obj_property name="ObjectShortName">PCSrcE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/JalrE" type="logic">
+         <obj_property name="ElementShortName">JalrE</obj_property>
+         <obj_property name="ObjectShortName">JalrE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/PCTargetE" type="array">
+         <obj_property name="ElementShortName">PCTargetE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCTargetE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/ALUResultE" type="array">
+         <obj_property name="ElementShortName">ALUResultE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUResultE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/InstrD" type="array">
+         <obj_property name="ElementShortName">InstrD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">InstrD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/PCD" type="array">
+         <obj_property name="ElementShortName">PCD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/PCPlus4D" type="array">
+         <obj_property name="ElementShortName">PCPlus4D[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCPlus4D[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/PCNextF" type="array">
+         <obj_property name="ElementShortName">PCNextF[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCNextF[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/PCNextJalrF" type="array">
+         <obj_property name="ElementShortName">PCNextJalrF[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCNextJalrF[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/PCF" type="array">
+         <obj_property name="ElementShortName">PCF[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCF[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/PCPlus4F" type="array">
+         <obj_property name="ElementShortName">PCPlus4F[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCPlus4F[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/InstrF" type="array">
+         <obj_property name="ElementShortName">InstrF[31:0]</obj_property>
+         <obj_property name="ObjectShortName">InstrF[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/InstrF_reg" type="array">
+         <obj_property name="ElementShortName">InstrF_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">InstrF_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/PCF_reg" type="array">
+         <obj_property name="ElementShortName">PCF_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCF_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/fetch/PCPlus4F_reg" type="array">
+         <obj_property name="ElementShortName">PCPlus4F_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCPlus4F_reg[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group855" type="group">
+      <obj_property name="label">Decode_cycle</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/uut/Decode/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/RegWriteW" type="logic">
+         <obj_property name="ElementShortName">RegWriteW</obj_property>
+         <obj_property name="ObjectShortName">RegWriteW</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/RDW" type="array">
+         <obj_property name="ElementShortName">RDW[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RDW[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/InstrD" type="array">
+         <obj_property name="ElementShortName">InstrD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">InstrD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/PCD" type="array">
+         <obj_property name="ElementShortName">PCD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/PCPlus4D" type="array">
+         <obj_property name="ElementShortName">PCPlus4D[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCPlus4D[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/ResultW" type="array">
+         <obj_property name="ElementShortName">ResultW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ResultW[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/MemWriteE" type="logic">
+         <obj_property name="ElementShortName">MemWriteE</obj_property>
+         <obj_property name="ObjectShortName">MemWriteE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/JalrE" type="logic">
+         <obj_property name="ElementShortName">JalrE</obj_property>
+         <obj_property name="ObjectShortName">JalrE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/ALUSrcE" type="logic">
+         <obj_property name="ElementShortName">ALUSrcE</obj_property>
+         <obj_property name="ObjectShortName">ALUSrcE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/RegWriteE" type="logic">
+         <obj_property name="ElementShortName">RegWriteE</obj_property>
+         <obj_property name="ObjectShortName">RegWriteE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/Op5E" type="logic">
+         <obj_property name="ElementShortName">Op5E</obj_property>
+         <obj_property name="ObjectShortName">Op5E</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/StoreE" type="array">
+         <obj_property name="ElementShortName">StoreE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">StoreE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/ResultSrcE" type="array">
+         <obj_property name="ElementShortName">ResultSrcE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ResultSrcE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/LoadE" type="array">
+         <obj_property name="ElementShortName">LoadE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">LoadE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/funct3E" type="array">
+         <obj_property name="ElementShortName">funct3E[2:0]</obj_property>
+         <obj_property name="ObjectShortName">funct3E[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/ALUControlE" type="array">
+         <obj_property name="ElementShortName">ALUControlE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUControlE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/JumpE" type="logic">
+         <obj_property name="ElementShortName">JumpE</obj_property>
+         <obj_property name="ObjectShortName">JumpE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/BranchE" type="logic">
+         <obj_property name="ElementShortName">BranchE</obj_property>
+         <obj_property name="ObjectShortName">BranchE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/RDE" type="array">
+         <obj_property name="ElementShortName">RDE[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RDE[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/PCPlus4E" type="array">
+         <obj_property name="ElementShortName">PCPlus4E[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCPlus4E[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/ImmExtE" type="array">
+         <obj_property name="ElementShortName">ImmExtE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ImmExtE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/PCE" type="array">
+         <obj_property name="ElementShortName">PCE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/RD2E" type="array">
+         <obj_property name="ElementShortName">RD2E[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD2E[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/RD1E" type="array">
+         <obj_property name="ElementShortName">RD1E[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD1E[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/upimmE" type="array">
+         <obj_property name="ElementShortName">upimmE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">upimmE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/RegWriteD" type="logic">
+         <obj_property name="ElementShortName">RegWriteD</obj_property>
+         <obj_property name="ObjectShortName">RegWriteD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/ALUSrcD" type="logic">
+         <obj_property name="ElementShortName">ALUSrcD</obj_property>
+         <obj_property name="ObjectShortName">ALUSrcD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/MemWriteD" type="logic">
+         <obj_property name="ElementShortName">MemWriteD</obj_property>
+         <obj_property name="ObjectShortName">MemWriteD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/BranchD" type="logic">
+         <obj_property name="ElementShortName">BranchD</obj_property>
+         <obj_property name="ObjectShortName">BranchD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/JalrD" type="logic">
+         <obj_property name="ElementShortName">JalrD</obj_property>
+         <obj_property name="ObjectShortName">JalrD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/Op5D" type="logic">
+         <obj_property name="ElementShortName">Op5D</obj_property>
+         <obj_property name="ObjectShortName">Op5D</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/JumpD" type="logic">
+         <obj_property name="ElementShortName">JumpD</obj_property>
+         <obj_property name="ObjectShortName">JumpD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/ImmSrcD" type="array">
+         <obj_property name="ElementShortName">ImmSrcD[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ImmSrcD[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/StoreD" type="array">
+         <obj_property name="ElementShortName">StoreD[1:0]</obj_property>
+         <obj_property name="ObjectShortName">StoreD[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/ResultSrcD" type="array">
+         <obj_property name="ElementShortName">ResultSrcD[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ResultSrcD[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/LoadD" type="array">
+         <obj_property name="ElementShortName">LoadD[2:0]</obj_property>
+         <obj_property name="ObjectShortName">LoadD[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/ALUControlD" type="array">
+         <obj_property name="ElementShortName">ALUControlD[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUControlD[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/RD1D" type="array">
+         <obj_property name="ElementShortName">RD1D[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD1D[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/RD2D" type="array">
+         <obj_property name="ElementShortName">RD2D[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD2D[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/ImmExtD" type="array">
+         <obj_property name="ElementShortName">ImmExtD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ImmExtD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/RegWriteD_r" type="logic">
+         <obj_property name="ElementShortName">RegWriteD_r</obj_property>
+         <obj_property name="ObjectShortName">RegWriteD_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/ALUSrcD_r" type="logic">
+         <obj_property name="ElementShortName">ALUSrcD_r</obj_property>
+         <obj_property name="ObjectShortName">ALUSrcD_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/MemWriteD_r" type="logic">
+         <obj_property name="ElementShortName">MemWriteD_r</obj_property>
+         <obj_property name="ObjectShortName">MemWriteD_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/BranchD_r" type="logic">
+         <obj_property name="ElementShortName">BranchD_r</obj_property>
+         <obj_property name="ObjectShortName">BranchD_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/JalrD_r" type="logic">
+         <obj_property name="ElementShortName">JalrD_r</obj_property>
+         <obj_property name="ObjectShortName">JalrD_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/Op5D_r" type="logic">
+         <obj_property name="ElementShortName">Op5D_r</obj_property>
+         <obj_property name="ObjectShortName">Op5D_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/JumpD_r" type="logic">
+         <obj_property name="ElementShortName">JumpD_r</obj_property>
+         <obj_property name="ObjectShortName">JumpD_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/StoreD_r" type="array">
+         <obj_property name="ElementShortName">StoreD_r[1:0]</obj_property>
+         <obj_property name="ObjectShortName">StoreD_r[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/ResultSrcD_r" type="array">
+         <obj_property name="ElementShortName">ResultSrcD_r[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ResultSrcD_r[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/LoadD_r" type="array">
+         <obj_property name="ElementShortName">LoadD_r[2:0]</obj_property>
+         <obj_property name="ObjectShortName">LoadD_r[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/funct3D_r" type="array">
+         <obj_property name="ElementShortName">funct3D_r[2:0]</obj_property>
+         <obj_property name="ObjectShortName">funct3D_r[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/ALUControlD_r" type="array">
+         <obj_property name="ElementShortName">ALUControlD_r[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUControlD_r[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/RD1D_r" type="array">
+         <obj_property name="ElementShortName">RD1D_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD1D_r[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/RD2D_r" type="array">
+         <obj_property name="ElementShortName">RD2D_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD2D_r[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/ImmExtD_r" type="array">
+         <obj_property name="ElementShortName">ImmExtD_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ImmExtD_r[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/upimmD_r" type="array">
+         <obj_property name="ElementShortName">upimmD_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">upimmD_r[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/RD_r" type="array">
+         <obj_property name="ElementShortName">RD_r[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RD_r[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/PCD_r" type="array">
+         <obj_property name="ElementShortName">PCD_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCD_r[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Decode/PCPlus4D_r" type="array">
+         <obj_property name="ElementShortName">PCPlus4D_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCPlus4D_r[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group918" type="group">
+      <obj_property name="label">Execute_cycle</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/uut/Execute/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/Op5E" type="logic">
+         <obj_property name="ElementShortName">Op5E</obj_property>
+         <obj_property name="ObjectShortName">Op5E</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/RegWriteE" type="logic">
+         <obj_property name="ElementShortName">RegWriteE</obj_property>
+         <obj_property name="ObjectShortName">RegWriteE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/MemWriteE" type="logic">
+         <obj_property name="ElementShortName">MemWriteE</obj_property>
+         <obj_property name="ObjectShortName">MemWriteE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/JumpE" type="logic">
+         <obj_property name="ElementShortName">JumpE</obj_property>
+         <obj_property name="ObjectShortName">JumpE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/BranchE" type="logic">
+         <obj_property name="ElementShortName">BranchE</obj_property>
+         <obj_property name="ObjectShortName">BranchE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/ALUSrcE" type="logic">
+         <obj_property name="ElementShortName">ALUSrcE</obj_property>
+         <obj_property name="ObjectShortName">ALUSrcE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/StoreE" type="array">
+         <obj_property name="ElementShortName">StoreE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">StoreE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/ResultSrcE" type="array">
+         <obj_property name="ElementShortName">ResultSrcE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ResultSrcE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/LoadE" type="array">
+         <obj_property name="ElementShortName">LoadE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">LoadE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/funct3E" type="array">
+         <obj_property name="ElementShortName">funct3E[2:0]</obj_property>
+         <obj_property name="ObjectShortName">funct3E[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/ALUControlE" type="array">
+         <obj_property name="ElementShortName">ALUControlE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUControlE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/RD1E" type="array">
+         <obj_property name="ElementShortName">RD1E[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD1E[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/RD2E" type="array">
+         <obj_property name="ElementShortName">RD2E[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD2E[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/PCE" type="array">
+         <obj_property name="ElementShortName">PCE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/ImmExtE" type="array">
+         <obj_property name="ElementShortName">ImmExtE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ImmExtE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/upimmE" type="array">
+         <obj_property name="ElementShortName">upimmE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">upimmE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/PCPlus4E" type="array">
+         <obj_property name="ElementShortName">PCPlus4E[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCPlus4E[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/RDE" type="array">
+         <obj_property name="ElementShortName">RDE[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RDE[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/PCSrcE" type="logic">
+         <obj_property name="ElementShortName">PCSrcE</obj_property>
+         <obj_property name="ObjectShortName">PCSrcE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/RegWriteM" type="logic">
+         <obj_property name="ElementShortName">RegWriteM</obj_property>
+         <obj_property name="ObjectShortName">RegWriteM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/MemWriteM" type="logic">
+         <obj_property name="ElementShortName">MemWriteM</obj_property>
+         <obj_property name="ObjectShortName">MemWriteM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/StoreM" type="array">
+         <obj_property name="ElementShortName">StoreM[1:0]</obj_property>
+         <obj_property name="ObjectShortName">StoreM[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/ResultSrcM" type="array">
+         <obj_property name="ElementShortName">ResultSrcM[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ResultSrcM[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/LoadM" type="array">
+         <obj_property name="ElementShortName">LoadM[2:0]</obj_property>
+         <obj_property name="ObjectShortName">LoadM[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/ALUResultM" type="array">
+         <obj_property name="ElementShortName">ALUResultM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUResultM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/WriteDataM" type="array">
+         <obj_property name="ElementShortName">WriteDataM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteDataM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/luipacM" type="array">
+         <obj_property name="ElementShortName">luipacM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">luipacM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/PCPlus4M" type="array">
+         <obj_property name="ElementShortName">PCPlus4M[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCPlus4M[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/PCTargetE" type="array">
+         <obj_property name="ElementShortName">PCTargetE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCTargetE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/RDM" type="array">
+         <obj_property name="ElementShortName">RDM[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RDM[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/RegWriteE_r" type="logic">
+         <obj_property name="ElementShortName">RegWriteE_r</obj_property>
+         <obj_property name="ObjectShortName">RegWriteE_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/MemWriteE_r" type="logic">
+         <obj_property name="ElementShortName">MemWriteE_r</obj_property>
+         <obj_property name="ObjectShortName">MemWriteE_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/StoreE_r" type="array">
+         <obj_property name="ElementShortName">StoreE_r[1:0]</obj_property>
+         <obj_property name="ObjectShortName">StoreE_r[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/ResultSrcE_r" type="array">
+         <obj_property name="ElementShortName">ResultSrcE_r[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ResultSrcE_r[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/LoadE_r" type="array">
+         <obj_property name="ElementShortName">LoadE_r[2:0]</obj_property>
+         <obj_property name="ObjectShortName">LoadE_r[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/ALUResultE_r" type="array">
+         <obj_property name="ElementShortName">ALUResultE_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUResultE_r[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/WriteDataE_r" type="array">
+         <obj_property name="ElementShortName">WriteDataE_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteDataE_r[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/luipacE_r" type="array">
+         <obj_property name="ElementShortName">luipacE_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">luipacE_r[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/PCPlus4E_r" type="array">
+         <obj_property name="ElementShortName">PCPlus4E_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCPlus4E_r[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/RDE_r" type="array">
+         <obj_property name="ElementShortName">RDE_r[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RDE_r[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/SrcBE" type="array">
+         <obj_property name="ElementShortName">SrcBE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SrcBE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/ALUResultE" type="array">
+         <obj_property name="ElementShortName">ALUResultE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUResultE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/AUIPcE" type="array">
+         <obj_property name="ElementShortName">AUIPcE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AUIPcE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/luipacE" type="array">
+         <obj_property name="ElementShortName">luipacE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">luipacE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Execute/ZeroE" type="logic">
+         <obj_property name="ElementShortName">ZeroE</obj_property>
+         <obj_property name="ObjectShortName">ZeroE</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group967" type="group">
+      <obj_property name="label">Mem_cycle</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/uut/Memory/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/RegWriteM" type="logic">
+         <obj_property name="ElementShortName">RegWriteM</obj_property>
+         <obj_property name="ObjectShortName">RegWriteM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/MemWriteM" type="logic">
+         <obj_property name="ElementShortName">MemWriteM</obj_property>
+         <obj_property name="ObjectShortName">MemWriteM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/ResultSrcM" type="array">
+         <obj_property name="ElementShortName">ResultSrcM[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ResultSrcM[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/RD_M" type="array">
+         <obj_property name="ElementShortName">RD_M[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RD_M[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/StoreM" type="array">
+         <obj_property name="ElementShortName">StoreM[1:0]</obj_property>
+         <obj_property name="ObjectShortName">StoreM[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/PCPlus4M" type="array">
+         <obj_property name="ElementShortName">PCPlus4M[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCPlus4M[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/WriteDataM" type="array">
+         <obj_property name="ElementShortName">WriteDataM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteDataM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/ALU_ResultM" type="array">
+         <obj_property name="ElementShortName">ALU_ResultM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_ResultM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/luipacM" type="array">
+         <obj_property name="ElementShortName">luipacM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">luipacM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/LoadM" type="array">
+         <obj_property name="ElementShortName">LoadM[2:0]</obj_property>
+         <obj_property name="ObjectShortName">LoadM[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/RegWriteW" type="logic">
+         <obj_property name="ElementShortName">RegWriteW</obj_property>
+         <obj_property name="ObjectShortName">RegWriteW</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/ResultSrcW" type="array">
+         <obj_property name="ElementShortName">ResultSrcW[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ResultSrcW[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/LoadW" type="array">
+         <obj_property name="ElementShortName">LoadW[2:0]</obj_property>
+         <obj_property name="ObjectShortName">LoadW[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/luipacW" type="array">
+         <obj_property name="ElementShortName">luipacW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">luipacW[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/RD_W" type="array">
+         <obj_property name="ElementShortName">RD_W[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RD_W[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/PCPlus4W" type="array">
+         <obj_property name="ElementShortName">PCPlus4W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCPlus4W[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/ALU_ResultW" type="array">
+         <obj_property name="ElementShortName">ALU_ResultW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_ResultW[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/ReadDataW" type="array">
+         <obj_property name="ElementShortName">ReadDataW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadDataW[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/ReadDataM" type="array">
+         <obj_property name="ElementShortName">ReadDataM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadDataM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/Store_DataM" type="array">
+         <obj_property name="ElementShortName">Store_DataM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Store_DataM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/RegWriteM_r" type="logic">
+         <obj_property name="ElementShortName">RegWriteM_r</obj_property>
+         <obj_property name="ObjectShortName">RegWriteM_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/ResultSrcM_r" type="array">
+         <obj_property name="ElementShortName">ResultSrcM_r[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ResultSrcM_r[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/RD_M_r" type="array">
+         <obj_property name="ElementShortName">RD_M_r[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RD_M_r[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/LoadM_r" type="array">
+         <obj_property name="ElementShortName">LoadM_r[2:0]</obj_property>
+         <obj_property name="ObjectShortName">LoadM_r[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/PCPlus4M_r" type="array">
+         <obj_property name="ElementShortName">PCPlus4M_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCPlus4M_r[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/ALU_ResultM_r" type="array">
+         <obj_property name="ElementShortName">ALU_ResultM_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_ResultM_r[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/ReadDataM_r" type="array">
+         <obj_property name="ElementShortName">ReadDataM_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadDataM_r[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/Memory/luipacM_r" type="array">
+         <obj_property name="ElementShortName">luipacM_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">luipacM_r[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group998" type="group">
+      <obj_property name="label">Write_back</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb/uut/WriteBack/ResultSrcW" type="array">
+         <obj_property name="ElementShortName">ResultSrcW[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ResultSrcW[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/WriteBack/luipacW" type="array">
+         <obj_property name="ElementShortName">luipacW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">luipacW[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/WriteBack/PCPlus4W" type="array">
+         <obj_property name="ElementShortName">PCPlus4W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCPlus4W[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/WriteBack/ALU_ResultW" type="array">
+         <obj_property name="ElementShortName">ALU_ResultW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_ResultW[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/WriteBack/ReadDataW" type="array">
+         <obj_property name="ElementShortName">ReadDataW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadDataW[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/WriteBack/LoadSelect" type="array">
+         <obj_property name="ElementShortName">LoadSelect[2:0]</obj_property>
+         <obj_property name="ObjectShortName">LoadSelect[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/WriteBack/ResultW" type="array">
+         <obj_property name="ElementShortName">ResultW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ResultW[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/uut/WriteBack/ReadDataL" type="array">
+         <obj_property name="ElementShortName">ReadDataL[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadDataL[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

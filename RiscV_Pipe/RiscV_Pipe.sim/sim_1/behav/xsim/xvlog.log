@@ -1,0 +1,44 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/New folder/Execute test/Execute test/Execute test.srcs/sources_1/new/Execute_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Execute_Cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/New folder/Memory_Cyle/Memory_Cyle.srcs/sources_1/new/Memory_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/New folder/Execute test/Execute test/Execute test.srcs/sources_1/new/PC_Src_logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Src_logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/new/RiscV_Pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RiscV_Pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/New folder/WriteBack_Cycle/WriteBack_Cycle.srcs/sources_1/new/WriteBack_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Write_Back_cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/New folder/Fetch_Cycle/Fetch_Cycle.srcs/sources_1/imports/Fetch/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/components/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/sources_1/new/alu_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/New folder/Memory_Cyle/Memory_Cyle.srcs/sources_1/imports/t2b_riscv_cpu_tutorial/data_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/sources_1/new/dec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/New folder/Fetch_Cycle/Fetch_Cycle.srcs/sources_1/new/fetch_cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetch_cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/sources_1/imports/components/imm_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/New folder/Fetch_Cycle/Fetch_Cycle.srcs/sources_1/imports/Fetch/instr_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/New folder/WriteBack_Cycle/WriteBack_Cycle.srcs/sources_1/imports/components/load_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module load_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/sources_1/new/main_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/New folder/Fetch_Cycle/Fetch_Cycle.srcs/sources_1/imports/Fetch/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/New folder/WriteBack_Cycle/WriteBack_Cycle.srcs/sources_1/imports/components/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/sources_1/imports/components/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/New folder/Fetch_Cycle/Fetch_Cycle.srcs/sources_1/imports/Fetch/reset_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reset_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sources_1/imports/New folder/Memory_Cyle/Memory_Cyle.srcs/sources_1/imports/components/store_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module store_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Aryan Kumar/New folder/RiscV_Pipe/RiscV_Pipe.srcs/sim_1/imports/.testbench/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
